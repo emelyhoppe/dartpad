@@ -1,0 +1,21 @@
+void main() {
+  String nome = "Emely";
+  String gen = "Indie e RPG";
+  String jogo = "Sally Face, Stardew Valley";
+  String tipo = "PC";
+
+  print("Olá, meu nome é ${nome}, meu gênero favorito de joggo é ${gen}, e meus jogos favoritos são: ${jogo} e por fim, jogo no ${tipo}.");
+  
+  int nota1 = 9;
+  int nota2 = 8;
+  double media = (nota1 + nota2)/ 2;
+  
+  print("A média das suas notas é ${media.toStringAsFixed(2)}");
+  
+  String nome2 = "Marcio";
+  int peso = 60;
+  double altura = 1.83;
+  double imc = peso / (altura * altura);
+  
+    print("O ${nome2}, tem o imc de ${imc.toStringAsFixed(2)}");
+}
