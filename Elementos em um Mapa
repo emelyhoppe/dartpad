@@ -1,0 +1,19 @@
+//3. Adicionando e Removendo Elementos em um Mapa:
+
+//Crie um mapa Map<String, int> chamado estoqueFrutas com quantidades de frutas.
+//Adicione uma nova fruta com quantidade ao mapa.
+//Aumente a quantidade de uma fruta existente no mapa.
+//Remova uma fruta do mapa se sua quantidade for zero.
+
+void main(){
+  
+  Map<String, int> estoqueFrutas = {"Uva": 5, "Banana" : 4, "Maçã" : 0};
+  
+  estoqueFrutas["Laranja"] = 7;
+  
+  estoqueFrutas["Uva"] = 8;
+  
+  estoqueFrutas.remove("Maçã");
+  
+  estoqueFrutas.forEach((chave, valor) {print("Fruta: ${chave}, Quantidade: ${valor}");});
+}
