@@ -1,0 +1,21 @@
+//2. Acessando Valores em um Mapa:
+
+//Crie um mapa Map<String, String> chamado dadosUsuario com informações como nome, idade e cidade.
+//Peça ao usuário para inserir o nome.
+//Use o nome para acessar os outros dados do usuário no mapa e imprima-os.
+  
+import 'dart:io';
+
+void main() {
+  Map<String, String> dadosUsuario = {'nome': '', 'idade': '25', 'cidade': 'São Paulo'
+  };
+  
+  print('Digite seu nome:');
+  String nome = stdin.readLineSync()!;
+  
+  dadosUsuario['nome'] = nome;
+  
+  print('Nome: ${dadosUsuario['nome']}');
+  print('Idade: ${dadosUsuario['idade']}');
+  print('Cidade: ${dadosUsuario['cidade']}');
+}
