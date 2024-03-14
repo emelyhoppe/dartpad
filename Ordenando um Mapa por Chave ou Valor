@@ -1,0 +1,13 @@
+//4. Ordenando um Mapa por Chave ou Valor:
+
+//Crie um mapa Map<String, int> chamado idadesAlunos com nomes de alunos e suas idades.
+//Use a função Map.fromEntries para ordenar o mapa por chave (nome do aluno) em ordem alfabética.
+//Use a função sortedByValue para ordenar o mapa por valor (idade) em ordem crescente.
+
+void main(){
+  
+  Map<String, int> idadesAlunos = {"Gabriela" : 12, "Maite" : 14, "Fabio" : 13};
+  
+  idadesAlunos.forEach((chave, valor) {print("Aluno: ${chave}, Idade: ${valor}");});
+  
+}
