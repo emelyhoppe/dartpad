@@ -1,0 +1,20 @@
+void main() { 
+  Map <String, dynamic> pessoas = {
+  'nome': 'Emely', 
+  'idade': 16,
+  'altura': 172,
+  'cidade': 'MCR',
+  'casado': false 
+  }; 
+ 
+ String nome = pessoas['nome'];
+ print(nome); 
+ int idade = pessoas['idade']; 
+ print(idade); 
+ int altura = pessoas['altura']; 
+ print(altura); 
+ String cidade = pessoas['cidade']; 
+ print(cidade); 
+ bool casado = pessoas['casado']; 
+ print(casado); 
+}
