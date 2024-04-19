@@ -11,3 +11,19 @@ void isAuthorized(String nome){
       }
   }
 
+
+void main (){
+  isAuthorized("Emely Linda", idade : 18);
+}
+
+void isAuthorized(String nome, (int? idade)){
+  List<String> auth = ["Emely Linda", "Vitor Feio", "Esdras Gay"];
+  if(idade != null auth.contains(nome) && idade >= 18){
+    print("Autorizado");
+  }else{
+      print("Não autorizado.");
+      }
+  }
+
+
+
