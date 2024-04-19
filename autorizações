@@ -25,5 +25,22 @@ void isAuthorized(String nome, (int? idade)){
       }
   }
 
+void main(){
+  salute(name: "Emely",sep: "-", age: 16);
+}
 
+void salute({
+  required String name, 
+  String? sep, 
+  int? age
+  }) {
+      print("Saudação da ${name}");
+      if(sep != null){
+        print (sep * 30);
+      }
+      if(age != null){
+        print(age);
+      }
+      print(DateTime.now());
+}
 
