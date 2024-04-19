@@ -1,0 +1,13 @@
+void main (){
+  isAuthorized("Emely Linda");
+}
+
+void isAuthorized(String nome){
+  List<String> auth = ["Emely Linda", "Vitor Feio", "Esdras Gay"];
+  if(auth.contains(nome)){
+    print("Autorizado");
+  }else{
+      print("Não autorizado.");
+      }
+  }
+
