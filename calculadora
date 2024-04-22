@@ -1,0 +1,23 @@
+void main(){
+  int num1 = 12;
+  int num2 = 10;
+  String operacao = "+";
+    
+  if (operacao == "+"){
+    print(soma(num1, num2));
+  }
+  else if (operacao == "-"){
+    print(subtrair(num1, num2));
+  }
+  else if (multiplicar == "*"){
+    print()
+  }
+  
+}
+int soma(int num1, int num2) => num1 + num2;
+
+int subtrair(int num1, int num2) => num1 - num2;
+
+int multiplicar(int num1, int num2) => num1 * num2;
+
+double dividir(double num1, double num2) => num1/ num2;
